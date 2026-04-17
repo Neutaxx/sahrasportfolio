@@ -3,9 +3,4 @@ services:
     name: sahra-portfolio
     runtime: static
     buildCommand: ""
-    staticPublishPath: .
-    pullRequestPreviewsEnabled: false
-    routes:
-      - type: rewrite
-        source: /*
-        destination: /index.html
+    staticPublishPath: ./
