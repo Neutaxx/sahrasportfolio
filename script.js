@@ -63,29 +63,42 @@
    *   0 ielts, 1 grammar, 2 notes, 3 formative, 4 summative, 5+ specifics
    */
   const GALLERY_DATA = {
-    cycle1: { ielts: [], grammar: [], notes: [], formative: [], summative: [] },
+    cycle1: {
+      ielts: ["Modulo 1.jpeg", "modulo 2.jpeg"],
+      grammar: [], notes: [], formative: [], summative: []
+    },
     cycle2: {
-      ielts: [], grammar: [], notes: [],
+      ielts: ["modulo 3.jpeg", "modulo 4.jpeg"],
+      grammar: [], notes: [],
       formative: ["Actividad Formativa ciclo 2.jpeg"],
       summative: [],
       sources: [], apa: []
     },
     cycle3: {
-      ielts: [], grammar: [], notes: [], formative: [], summative: [],
+      ielts: ["modulo 5.jpeg", "modulo 6.jpeg"],
+      grammar: [], notes: [], formative: [], summative: [],
       mock: []
     },
-    cycle4: { ielts: [], grammar: [], notes: [], formative: [], summative: [] },
+    cycle4: {
+      ielts: ["modulo 7.jpeg", "modulo 8.jpeg"],
+      grammar: [], notes: [], formative: [], summative: []
+    },
     cycle5: {
-      ielts: [], grammar: [], notes: [], formative: [], summative: [],
+      ielts: ["modulo 9.jpeg"],
+      grammar: [], notes: [], formative: [], summative: [],
       campaign: []
     },
     cycle6: {
-      ielts: [], grammar: [], notes: [],
+      ielts: ["modulo 10.jpeg"],
+      grammar: [], notes: [],
       formative: ["Summary activity sexto ciclo 1.jpeg", "Summary activity sexto ciclo 2.jpeg"],
       summative: [],
       reflection: []
     },
-    cycle7: { ielts: [], grammar: [], notes: [], formative: [], summative: [] },
+    cycle7: {
+      ielts: ["modulo 11.jpeg"],
+      grammar: [], notes: [], formative: [], summative: []
+    },
   };
 
   // Map each cycle's section order to its data key
