@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sahra Arce · Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Abril+Fatface&family=Dancing+Script:wght@400;600;700&family=Outfit:wght@200;300;400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Falling petals -->
+<div class="petals" aria-hidden="true">
+  <span class="petal">❀</span>
+  <span class="petal">✿</span>
+  <span class="petal">❀</span>
+  <span class="petal">✿</span>
+  <span class="petal">❀</span>
+  <span class="petal">✿</span>
+  <span class="petal">❀</span>
+  <span class="petal">✿</span>
+  <span class="petal">❀</span>
+  <span class="petal">✿</span>
+</div>
+
+<!-- Header -->
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#" class="brand" data-view="home">
+      <span class="brand-mark">S</span>
+      <span class="brand-name">Sahra</span>
+    </a>
+    <nav class="site-nav">
+      <button class="nav-link" data-view="home">Home</button>
+      <div class="dropdown">
+        <button class="nav-link dropdown-toggle">Cycles <span class="caret">▾</span></button>
+        <ul class="dropdown-menu">
+          <li><button data-view="cycle1">Cycle One</button></li>
+          <li><button data-view="cycle2">Cycle Two</button></li>
+          <li><button data-view="cycle3">Cycle Three</button></li>
+          <li><button data-view="cycle4">Cycle Four</button></li>
+          <li><button data-view="cycle5">Cycle Five</button></li>
+          <li><button data-view="cycle6">Cycle Six</button></li>
+          <li><button data-view="cycle7">Cycle Seven</button></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="header-rule"></div>
+</header>
+
+<main class="stage">
+
+  <!-- ═══════════════ HOME ═══════════════ -->
+  <section class="view active" id="home">
+    <div class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="hero-topbar">
+        <span class="topbar-item">Vol. 01</span>
+        <span class="topbar-sep">❀</span>
+        <span class="topbar-item">MMXXVI</span>
+        <span class="topbar-sep">❀</span>
+        <span class="topbar-item">English · First Term</span>
+      </div>
+
+      <div class="hero-center">
+        <p class="hero-kicker">— An Academic Journal —</p>
+
+        <h1 class="hero-title">
+          <span>P</span><span>O</span><span>R</span><span>T</span><span>F</span><span>O</span><span>L</span><span>I</span><span>O</span>
+        </h1>
+
+        <div class="hero-divider">
+          <span class="line"></span>
+          <span class="ornament">❀</span>
+          <span class="line"></span>
+        </div>
+
+        <p class="hero-by">— by —</p>
+        <p class="hero-name">Sahra Arce</p>
+
+        <p class="hero-tagline">A Collection of Notes, Readings &amp; Reflections</p>
+      </div>
+
+      <div class="hero-seal-left">
+        <span class="seal-top">Est.</span>
+        <span class="seal-big">2026</span>
+        <span class="seal-bot">· i ·</span>
+      </div>
+
+      <div class="hero-seal-right">
+        <div class="seal-circle">
+          <span class="seal-text">❀ SAHRA ❀ ARCE ❀</span>
+          <span class="seal-center">SA</span>
+        </div>
+      </div>
+
+      <div class="hero-bottombar">
+        <span class="bottombar-line"></span>
+        <span class="bottombar-text">turn the page</span>
+        <span class="bottombar-line"></span>
+      </div>
+    </div>
+
+    <div class="scroll-hint">
+      <span>scroll</span>
+      <span class="arrow">↓</span>
+    </div>
+
+    <section class="about-block">
+      <div class="about-card">
+        <div class="card-corner tl"></div>
+        <div class="card-corner br"></div>
+        <p class="about-eyebrow">About this Portfolio</p>
+        <h2 class="about-title">A Journal of <em>Growth</em></h2>
+        <div class="about-body">
+          <p>The objective of this website is to present and showcase my progress throughout the different learning cycles of the trimester, highlighting the development of my English skills, digital literacy, research abilities, and ethical awareness related to AI and technology.</p>
+          <p>It aims to organize my achievements, reflections, and projects in a creative and accessible way while demonstrating my academic growth over time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="explore-block">
+      <div class="explore-head">
+        <p class="section-kicker">— Index —</p>
+        <h2 class="section-title">Explore <em>the Cycles</em></h2>
+      </div>
+      <div class="cycles-grid">
+        <button class="cycle-card" data-view="cycle1">
+          <span class="card-num">01</span>
+          <span class="card-name">Cycle One</span>
+          <span class="card-arrow">→</span>
+        </button>
+        <button class="cycle-card" data-view="cycle2">
+          <span class="card-num">02</span>
+          <span class="card-name">Cycle Two</span>
+          <span class="card-arrow">→</span>
+        </button>
+        <button class="cycle-card" data-view="cycle3">
+          <span class="card-num">03</span>
+          <span class="card-name">Cycle Three</span>
+          <span class="card-arrow">→</span>
+        </button>
+        <button class="cycle-card" data-view="cycle4">
+          <span class="card-num">04</span>
+          <span class="card-name">Cycle Four</span>
+          <span class="card-arrow">→</span>
+        </button>
+        <button class="cycle-card" data-view="cycle5">
+          <span class="card-num">05</span>
+          <span class="card-name">Cycle Five</span>
+          <span class="card-arrow">→</span>
+        </button>
+        <button class="cycle-card" data-view="cycle6">
+          <span class="card-num">06</span>
+          <span class="card-name">Cycle Six</span>
+          <span class="card-arrow">→</span>
+        </button>
+        <button class="cycle-card" data-view="cycle7">
+          <span class="card-num">07</span>
+          <span class="card-name">Cycle Seven</span>
+          <span class="card-arrow">→</span>
+        </button>
+      </div>
+    </section>
+  </section>
+
+  <!-- ═══════════════ CYCLE 1 ═══════════════ -->
+  <section class="view" id="cycle1">
+    <div class="cycle-header">
+      <span class="cycle-badge">Cycle 01</span>
+      <h1 class="cycle-title">Cycle <em>One</em></h1>
+      <p class="cycle-subtitle">Foundations · Diagnostics · Digital Awareness</p>
+    </div>
+
+    <div class="about-card cycle-overview">
+      <div class="card-corner tl"></div>
+      <div class="card-corner br"></div>
+      <p class="about-eyebrow">Cycle Overview</p>
+      <div class="about-body">
+        <p>In this cycle, I will identify my initial level of English proficiency, digital literacy, and ethical awareness related to AI and digital relationships.</p>
+        <p>I will complete diagnostic activities, reflect on my personal digital habits, and become familiar with the project structure, assessment matrix, digital platforms, and tools that will be used throughout the trimester.</p>
+        <p>This cycle will help me build the conceptual and language foundation needed to guide my learning during the project.</p>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📖 IELTS Book Pages</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">✏️ Focus on Grammar Units</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📝 Class Notes</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">🌸 Formative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">💜 Summative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CYCLE 2 ═══════════════ -->
+  <section class="view" id="cycle2">
+    <div class="cycle-header">
+      <span class="cycle-badge">Cycle 02</span>
+      <h1 class="cycle-title">Cycle <em>Two</em></h1>
+      <p class="cycle-subtitle">Research · Synthesis · Referencing</p>
+    </div>
+
+    <div class="about-card cycle-overview">
+      <div class="card-corner tl"></div>
+      <div class="card-corner br"></div>
+      <p class="about-eyebrow">Cycle Overview</p>
+      <div class="about-body">
+        <p>In this cycle, I will synthesize and organize the articles, film notes, and infographics I have gathered into a structured digital bibliography using online tools such as Annotate.</p>
+        <p>I will categorize my references into three analytical areas: Human Practices and AI Interaction, Security and Device Protection, and Damage Control regarding data exposure.</p>
+        <p>I will write summaries for each category using reported speech to combine ideas from different authors and first conditional structures to explain possible consequences of the behaviors identified.</p>
+        <p>This organized database will become the evidence-based core of my project, which I will later present orally to identify key patterns in how technology reshapes human thought and identity. All this information will be compiled in a cloud-based .doc file that can be revised and shared through a link.</p>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📖 IELTS Book Pages</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">✏️ Focus on Grammar Units</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📝 Class Notes</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">🌸 Formative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">💜 Summative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card specific">
+      <h3 class="section-h">📚 Sources Organization (References)</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card specific">
+      <h3 class="section-h">🗂️ References APA 7</h3>
+      <div class="gallery"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CYCLE 3 ═══════════════ -->
+  <section class="view" id="cycle3">
+    <div class="cycle-header">
+      <span class="cycle-badge">Cycle 03</span>
+      <h1 class="cycle-title">Cycle <em>Three</em></h1>
+      <p class="cycle-subtitle">IELTS Focus · Four Skills · Exam Strategies</p>
+    </div>
+
+    <div class="about-card cycle-overview">
+      <div class="card-corner tl"></div>
+      <div class="card-corner br"></div>
+      <p class="about-eyebrow">Cycle Overview</p>
+      <div class="about-body">
+        <p>In this cycle, I will strengthen my core English language skills through IELTS-oriented tasks.</p>
+        <p>I will work on the four main sections of the exam: Reading, Writing, Listening, and Speaking, while improving grammar, academic vocabulary, and exam techniques.</p>
+        <p>Through guided activities using authentic IELTS materials and reflective practice, I will build confidence and become more aware of my current proficiency level.</p>
+        <p>By the end of the cycle, I will be able to apply effective test-taking strategies and demonstrate linguistic precision in all four skills.</p>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📖 IELTS Book Pages</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">✏️ Focus on Grammar Units</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📝 Class Notes</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">🌸 Formative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">💜 Summative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card specific">
+      <h3 class="section-h">🎯 Mock Test</h3>
+      <div class="gallery"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CYCLE 4 ═══════════════ -->
+  <section class="view" id="cycle4">
+    <div class="cycle-header">
+      <span class="cycle-badge">Cycle 04</span>
+      <h1 class="cycle-title">Cycle <em>Four</em></h1>
+      <p class="cycle-subtitle">Academic Research · Reliable Sources · Reflection</p>
+    </div>
+
+    <div class="about-card cycle-overview">
+      <div class="card-corner tl"></div>
+      <div class="card-corner br"></div>
+      <p class="about-eyebrow">Cycle Overview</p>
+      <div class="about-body">
+        <p>In this cycle, I will move from conceptual exploration to structured academic research.</p>
+        <p>I will locate, evaluate, summarize, and cite reliable academic sources related to AI and human behavior.</p>
+        <p>I will use AI tools as supports for organization and language refinement, while keeping all evaluative decisions under my own responsibility.</p>
+        <p>With this information, I will reflect and comment in class about the relevance of my findings for the awareness campaign I will later apply to improve digital usage in my school.</p>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📖 IELTS Book Pages</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">✏️ Focus on Grammar Units</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📝 Class Notes</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">🌸 Formative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">💜 Summative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CYCLE 5 ═══════════════ -->
+  <section class="view" id="cycle5">
+    <div class="cycle-header">
+      <span class="cycle-badge">Cycle 05</span>
+      <h1 class="cycle-title">Cycle <em>Five</em></h1>
+      <p class="cycle-subtitle">Awareness Campaign · Audience · Persuasion</p>
+    </div>
+
+    <div class="about-card cycle-overview">
+      <div class="card-corner tl"></div>
+      <div class="card-corner br"></div>
+      <p class="about-eyebrow">Cycle Overview</p>
+      <div class="about-body">
+        <p>In this cycle, I will use my research progress to identify an issue related to electronic devices and AI in order to design an awareness campaign in groups.</p>
+        <p>I will define a real audience within the school community, establish ethical objectives, and create persuasive messages based on research evidence.</p>
+        <p>I will focus on language accuracy, tone adaptation, and responsible use of AI and electronic devices while applying conditionals, reported speech, proper collocations, and persuasive expressions to achieve effective communication.</p>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📖 IELTS Book Pages</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">✏️ Focus on Grammar Units</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📝 Class Notes</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">🌸 Formative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">💜 Summative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card specific">
+      <h3 class="section-h">📣 Campaign Cycle 5</h3>
+      <div class="gallery"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CYCLE 6 ═══════════════ -->
+  <section class="view" id="cycle6">
+    <div class="cycle-header">
+      <span class="cycle-badge">Cycle 06</span>
+      <h1 class="cycle-title">Cycle <em>Six</em></h1>
+      <p class="cycle-subtitle">Final Production · Feedback · Performance</p>
+    </div>
+
+    <div class="about-card cycle-overview">
+      <div class="card-corner tl"></div>
+      <div class="card-corner br"></div>
+      <p class="about-eyebrow">Cycle Overview</p>
+      <div class="about-body">
+        <p>In this cycle, I will produce, refine, and rehearse the final versions of my electronic devices and AI awareness campaign.</p>
+        <p>I will focus on linguistic accuracy, coherence, visual design quality, and oral performance.</p>
+        <p>Through continuous peer and teacher feedback, I will improve my materials to ensure they are ethical, research-based, and effective.</p>
+        <p>I will also continue practicing different parts of the IELTS examination using my support materials as preparation for the final presentation, where I will explain my campaign's effectiveness, share the theoretical framework, present pictures of the campaign process, describe how it was created, and provide a final reflection with appropriate referencing and Creative Commons protection for my authorship.</p>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📖 IELTS Book Pages</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">✏️ Focus on Grammar Units</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📝 Class Notes</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">🌸 Formative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">💜 Summative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card specific">
+      <h3 class="section-h">🎤 Campaign Reflection Presentation</h3>
+      <div class="gallery"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CYCLE 7 ═══════════════ -->
+  <section class="view" id="cycle7">
+    <div class="cycle-header">
+      <span class="cycle-badge">Cycle 07</span>
+      <h1 class="cycle-title">Cycle <em>Seven</em></h1>
+      <p class="cycle-subtitle">Implementation · Dialogue · Social Impact</p>
+    </div>
+
+    <div class="about-card cycle-overview">
+      <div class="card-corner tl"></div>
+      <div class="card-corner br"></div>
+      <p class="about-eyebrow">Cycle Overview</p>
+      <div class="about-body">
+        <p>In this cycle, I will implement and share my electronic devices and AI awareness campaign within the school community.</p>
+        <p>I will present my work to real audiences, participate in dialogue through questions and discussion, and systematically document audience responses.</p>
+        <p>This cycle will help me develop authentic communication skills, create social impact, and collect evidence that will prepare me for critical reflection and portfolio consolidation in Cycle 8.</p>
+      </div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📖 IELTS Book Pages</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">✏️ Focus on Grammar Units</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">📝 Class Notes</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">🌸 Formative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card">
+      <h3 class="section-h">💜 Summative Tasks</h3>
+      <div class="gallery"></div>
+    </div>
+
+    <div class="section-card specific docs-link-card">
+      <h3 class="section-h">📄 Google Docs</h3>
+      <p class="docs-placeholder">Open the full Google Docs document to view the complete reflection and supporting materials for this cycle.</p>
+      <a href="https://docs.google.com/document/d/1YKJ4JzVBxYFyht2NWveMayEb0Mpk1H8rdaVXWL2DpnU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Open document ↗</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>❀ Sahra Arce · English Portfolio · First Term ❀</p>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox-close" aria-label="Close">×</button>
+  <img class="lightbox-img" alt="" />
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
