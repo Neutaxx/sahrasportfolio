@@ -99,6 +99,13 @@
       ielts: ["modulo 11.jpeg"],
       grammar: [], notes: [], formative: [], summative: []
     },
+    campaign: {
+      summary: [
+        "Summary activity (camapaña).jpeg",
+        "Summary activity sexto ciclo 1.jpeg",
+        "Summary activity sexto ciclo 2.jpeg"
+      ]
+    },
   };
 
   // Map each cycle's section order to its data key
@@ -110,6 +117,7 @@
     cycle5: ["ielts", "grammar", "notes", "formative", "summative", "campaign"],
     cycle6: ["ielts", "grammar", "notes", "formative", "summative", "reflection"],
     cycle7: ["ielts", "grammar", "notes", "formative", "summative"],
+    campaign: ["summary"],
   };
 
   // Default minimum empty slots to show when there's no image

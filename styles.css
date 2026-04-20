@@ -762,6 +762,64 @@ body {
 }
 .cycle-card:hover .card-arrow { transform: translateX(8px); }
 
+/* ════════════ CAMPAIGN (highlighted) ════════════ */
+.menu-highlight {
+  color: var(--red-deep) !important;
+  font-weight: 700 !important;
+}
+.dropdown-menu li button.menu-highlight {
+  background: linear-gradient(90deg, rgba(251, 111, 146, 0.18), transparent);
+}
+.dropdown-menu li button.menu-highlight:hover {
+  background: linear-gradient(90deg, var(--rose), var(--pink-hot));
+  color: var(--cream) !important;
+}
+
+.highlight-card {
+  background: linear-gradient(135deg, var(--burgundy), var(--rose) 60%, var(--pink-hot)) !important;
+  border: none !important;
+  color: var(--cream);
+  position: relative;
+  overflow: hidden;
+}
+.highlight-card::before { display: none !important; }
+.highlight-card::after {
+  content: "★";
+  top: 12px;
+  right: 16px;
+  color: rgba(255, 247, 245, 0.45) !important;
+  font-size: 20px;
+  opacity: 1 !important;
+}
+.highlight-card .card-num,
+.highlight-card .card-name,
+.highlight-card .card-arrow { color: var(--cream) !important; }
+.highlight-card .card-name { font-weight: 600; }
+.highlight-card .card-subtitle {
+  font-family: var(--script);
+  font-size: 20px;
+  color: var(--pink-soft);
+  margin-top: 4px;
+  position: relative;
+  z-index: 1;
+}
+.highlight-card:hover {
+  transform: translateY(-10px) rotate(0.5deg) scale(1.02);
+  box-shadow: 0 30px 60px rgba(120, 0, 0, 0.35);
+}
+
+.badge-campaign {
+  background: linear-gradient(90deg, var(--burgundy), var(--rose));
+  letter-spacing: 4px;
+}
+
+.campaign-view .cycle-title em {
+  background: linear-gradient(135deg, var(--rose), var(--pink-hot), var(--pink-mid));
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /* ════════════ CYCLE HEADER ════════════ */
 .cycle-header {
   text-align: center;
