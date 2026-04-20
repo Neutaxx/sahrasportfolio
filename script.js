@@ -65,7 +65,19 @@
   const GALLERY_DATA = {
     cycle1: {
       ielts: ["Modulo 1.jpeg", "modulo 2.jpeg"],
-      grammar: [], notes: [], formative: [], summative: []
+      grammar: [],
+      notes: [
+        "WhatsApp Image 2026-04-17 at 12.36.41 PM.jpeg",
+        "WhatsApp Image 2026-04-17 at 12.36.42 PM.jpeg",
+        "WhatsApp Image 2026-04-17 at 12.36.43 PM.jpeg",
+        "WhatsApp Image 2026-04-17 at 12.36.43 PM (1).jpeg",
+        "WhatsApp Image 2026-04-17 at 12.36.43 PM (2).jpeg",
+        "WhatsApp Image 2026-04-17 at 12.36.44 PM.jpeg",
+        "WhatsApp Image 2026-04-17 at 12.36.44 PM (1).jpeg",
+        "WhatsApp Image 2026-04-17 at 12.36.44 PM (2).jpeg",
+        "WhatsApp Image 2026-04-17 at 12.36.44 PM (3).jpeg"
+      ],
+      formative: [], summative: []
     },
     cycle2: {
       ielts: ["modulo 3.jpeg", "modulo 4.jpeg"],
